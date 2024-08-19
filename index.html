@@ -3,36 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Temario</title>
+    <title>Estructura y Organizacion de datos</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
             line-height: 1.6;
-        }
-        h1, h2, h3 {
+            background-color: #f4f4f4;
             color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 5px;
+            margin-top: 30px;
         }
         ul {
             list-style-type: none;
             padding-left: 20px;
         }
+        ul li {
+            margin-bottom: 15px;
+        }
         ul li::before {
             content: "• ";
-            color: #555;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        .definition {
+            background-color: #ffffff;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
 <body>
 
-    <h1>Programación orientada a objetos</h1>
+    <h1>Programación Orientada a Objetos</h1>
 
     <h2>Paradigma de la OOP</h2>
+    <li class="definition"> 
+        <strong></strong>La Programación Orientada a Objetos (POO) es un enfoque de programación que gira en torno a la idea de "objetos", que son unidades que encapsulan tanto datos (atributos) como funciones (métodos) que manipulan esos datos. Este paradigma permite representar el mundo real de manera más intuitiva y contribuye a la construcción de software modular, reutilizable y más sencillo de mantener.
+    </li>
+
     <ul>
-        <li> Encapsulamiento: Es la práctica de proteger los datos de un objeto en programación orientada a objetos, restringiendo su acceso directo y permitiendo interactuar con ellos solo a través de métodos controlados, asegurando así la integridad y seguridad de la información.</li>
-        <li> Abstracción:  consiste en ocultar los detalles complejos de un objeto y mostrar solo las características esenciales, facilitando así su uso y comprensión.</li>
-        <li> Herencia: Es un mecanismo en donde una clase (subclase) puede derivar de otra clase (superclase), heredando sus atributos y métodos, y permitiendo reutilizar y extender su funcionalidad.</li>
-        <li> Polimorfismo: permite que objetos de diferentes clases sean tratados como si fueran de una misma clase, utilizando una misma interfaz. Esto permite que un mismo método pueda comportarse de diferentes maneras según el objeto que lo invoque.</li>
+        <li class="definition"> 
+            <strong>Encapsulamiento:</strong> Es la práctica de proteger los datos de un objeto en programación orientada a objetos, restringiendo su acceso directo y permitiendo interactuar con ellos solo a través de métodos controlados, asegurando así la integridad y seguridad de la información.
+        </li>
+        <li class="definition">
+            <strong>Abstracción:</strong> Consiste en ocultar los detalles complejos de un objeto y mostrar solo las características esenciales, facilitando así su uso y comprensión.
+        </li>
+        <li class="definition">
+            <strong>Herencia:</strong> Es un mecanismo en donde una clase (subclase) puede derivar de otra clase (superclase), heredando sus atributos y métodos, y permitiendo reutilizar y extender su funcionalidad.
+        </li>
+        <li class="definition">
+            <strong>Polimorfismo:</strong> Permite que objetos de diferentes clases sean tratados como si fueran de una misma clase, utilizando una misma interfaz. Esto permite que un mismo método pueda comportarse de diferentes maneras según el objeto que lo invoque.
+        </li>
     </ul>
 
 </body>
